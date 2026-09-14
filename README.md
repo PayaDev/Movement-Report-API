@@ -21,7 +21,7 @@ The Movement Report API provides access to merchant deposit and transaction repo
 | Header | Required | Description | Example |
 |---|---:|---|---|
 | `Merchant-Auth` | Yes | Merchant authentication credentials encoded as a JSON string. For PCON merchants, include `DeveloperId` in the same JSON object. | `{"UserId":"USER_ID","UserKey":"USER_KEY","MerchantType":"CoreGateway"}` |
-| `x-correlationid` | Preferred | GUID used to track the request end to end. When supplied, the same value is returned in the response. | `123e4567-e89b-12d3-a456-426614174000` |
+| `x-correlation-id` | Preferred | GUID used to track the request end to end. When supplied, the same value is returned in the response. | `123e4567-e89b-12d3-a456-426614174000` |
 | `Content-Type` | Yes | Request media type. | `application/json` |
 | `Accept` | Yes | Expected response media type. | `application/json` |
 
@@ -64,7 +64,7 @@ The `Merchant-Auth` header must contain a JSON string with the following fields.
 
 | Header | Description |
 |---|---|
-| `x-correlationid` | Request tracking identifier. If the request supplies a correlation ID, the response returns the same value. Otherwise, the API returns a new GUID. |
+| `x-correlation-id` | Request tracking identifier. If the request supplies a correlation ID, the response returns the same value. Otherwise, the API returns a new GUID. |
 | `Content-Type` | Response media type: `application/json`. |
 
 ## Deposits API
