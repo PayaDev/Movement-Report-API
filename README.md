@@ -4,7 +4,7 @@
 > **Date:** September 2026  
 > **Base URL:** `https://www.sagepayments.net/web_services/Reconciliation`
 
-The Movement Report API provides access to merchant deposit and transaction reporting data. This endpoint will work for merchant accounts boarded on either Paya Core (Sage Exchange/Sage Payments) or NIPG Connect (Paya Connect).
+The Movement Report API provides access to merchant deposit and transaction reporting data. This endpoint will work for merchant accounts boarded on either Paya Core (Sage Exchange/Sage Payments) or NIPG Connect (Paya Connect). If you have any questions, please reach out to sdksupport@nuvei.com.
 
 ## Contents
 
