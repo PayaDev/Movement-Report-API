@@ -383,7 +383,7 @@ The same date and merchant account validation rules documented for the Deposits 
 | `SubmittedInterchangeDesc` | string | Interchange level description. |
 | `TerminalID` | string | Point-of-sale terminal identifier. |
 | `TotalAuthorizedAmount` | string | Total authorized amount including adjustments. |
-| `TransactionAmount` | string | Transaction amount in cents as an 11-digit value. |
+| `TransactionAmount` | string | Transaction amount, as a decimal-dollar value. |
 | `TransactionCode` | string | Four-digit transaction type code. |
 | `TransactionDate` | string | Original transaction date in `MMDDYYYY` format. |
 | `TransactionDecode` | string | Human-readable transaction code description. |
